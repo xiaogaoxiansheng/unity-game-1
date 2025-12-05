@@ -1,0 +1,32 @@
+# 【AI修改】Unity 项目忽略文件，避免提交生成目录与临时文件
+
+# Unity 生成目录
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# IDE 与编辑器
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 备份与临时
+*.bak
+*.tmp
+*.swp
+*.pidb
+*.booproj
+*.svd
+
+# Crash/调试输出
+*.stackdump
+*.crash
+
+# 其他
+[Pp]ackages/*/PackageCache/
+Assets/Plugins/Editor/Tests/
